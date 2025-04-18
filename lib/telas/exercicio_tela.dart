@@ -1,9 +1,34 @@
 // 1 - Importar o material.dart
 import 'package:flutter/material.dart';
+import 'package:gymapp/modelos/exercicio_modelo.dart';
+import 'package:gymapp/modelos/sentimento_modelo.dart';
 
 // 2 - Se tiver duvidas se deve criar um Stateless ou Statefull, cria primeiro como Stateless e depois converte em Statefull se for necessario
 class ExercicioTela extends StatelessWidget {
-  const ExercicioTela({super.key});
+  ExercicioTela({super.key});
+
+  // Instanciando as models que acabei de criar
+  // Instancinado o Exercicio
+  final ExercicioModelo exercicioModelo = ExercicioModelo(
+    id: "EX001",
+    nome: "Remada Baixa Supinada",
+    treino: "Treino A",
+    comoFazer: "Segura a barra e puxa",
+  );
+
+  // Instanciando os Sentimentos(serah uma lista de sentimentos)
+  final List<SentimentoModelo> listaSentimentos = [
+    SentimentoModelo(
+      id: "SE001",
+      sentindo: "Pouca ativacao hoje",
+      data: "2025-04-18",
+    ),
+    SentimentoModelo(
+      id: "SE002",
+      sentindo: "Ja senti alguma ativacao",
+      data: "2025-04-19",
+    ),
+  ];
 
   @override
   Widget build(BuildContext context) {
