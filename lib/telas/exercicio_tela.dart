@@ -334,9 +334,26 @@ class ExercicioTela extends StatelessWidget {
   Widget build(BuildContext context) {
     // Quando queremos criar "TELAS", o ideal eh que se use o widget "Scaffold": widget que facilita a criacao de telas no flutter
     return Scaffold(
+      //backgroundColor: Colors.blue,
       appBar: AppBar(
-        title: Text("${exercicioModelo.nome} - ${exercicioModelo.treino}"),
-        backgroundColor: Colors.blue[700],
+        title: Column(
+          children: [
+            Text(
+              exercicioModelo.nome,
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+            ),
+            Text(exercicioModelo.treino, style: TextStyle(fontSize: 15)),
+          ],
+        ),
+        centerTitle: true,
+        backgroundColor: Color(0xFF0A6D92),
+        elevation: 0, // Propriedade que elimina a sombra
+        toolbarHeight: 72,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(32),
+          ), // Usando a propriedade "shappe" para circular apenas a parte de baixo da "AppBar"
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
