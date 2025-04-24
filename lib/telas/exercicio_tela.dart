@@ -28,313 +28,13 @@ class ExercicioTela extends StatelessWidget {
       sentindo: "Ja senti alguma ativacao",
       data: "2025-04-19",
     ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
-    SentimentoModelo(
-      id: "SE001",
-      sentindo: "Pouca ativacao hoje",
-      data: "2025-04-18",
-    ),
-    SentimentoModelo(
-      id: "SE002",
-      sentindo: "Ja senti alguma ativacao",
-      data: "2025-04-19",
-    ),
   ];
 
   @override
   Widget build(BuildContext context) {
     // Quando queremos criar "TELAS", o ideal eh que se use o widget "Scaffold": widget que facilita a criacao de telas no flutter
     return Scaffold(
-      //backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         title: Column(
           children: [
@@ -361,26 +61,68 @@ class ExercicioTela extends StatelessWidget {
         },
         child: Icon(Icons.add),
       ),
-      body: Padding(
+      body: Container(
+        margin: EdgeInsets.all(14),
         padding: const EdgeInsets.all(16.0),
+        decoration: BoxDecoration(
+          color: Color(0xfff3f4e5),
+          borderRadius: BorderRadius.circular(16),
+        ),
         child: ListView(
           children: [
-            ElevatedButton(onPressed: () {}, child: const Text("Enviar foto")),
+            SizedBox(
+              height: 250,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: const Text("Enviar foto"),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: const Text("Tirar foto"),
+                  ),
+                ],
+              ),
+            ),
+            SizedBox(height: 8),
             const Text(
               "Como fazer?",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
             ),
+            SizedBox(height: 8),
             Text(exercicioModelo.comoFazer),
-            Divider(),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Divider(color: Colors.black),
+            ),
             const Text(
               "Como estou me sentindo",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
             ),
+            SizedBox(height: 8),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: List.generate(listaSentimentos.length, (index) {
                 SentimentoModelo sentimentoAgora = listaSentimentos[index];
-                return Text(sentimentoAgora.sentindo);
+                return ListTile(
+                  // "ListTile" propriedade muito usada quando se esta a trabalhar com listas
+                  dense: true,
+                  contentPadding: EdgeInsets.zero,
+                  title: Text(sentimentoAgora.sentindo),
+                  subtitle: Text(sentimentoAgora.data),
+                  leading: Icon(
+                    Icons.double_arrow_rounded,
+                  ), // "leading"Serve para colocar alguma coisa (um icone, por exemplo) antes de um elemento do "ListTile"
+                  trailing: IconButton(
+                    // "trailing" Serve para colocar alguma coisa (um icone, por exemplo) depis de um elemento do "ListTile"
+                    icon: Icon(Icons.delete, color: Colors.red),
+                    onPressed: () {
+                      print("DELETAR ${sentimentoAgora.sentindo}");
+                    },
+                  ),
+                );
               }),
             ),
           ],
