@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:gymapp/_comum/minhas_cores.dart';
 
-class AutenticacaoTela extends StatelessWidget {
+class AutenticacaoTela extends StatefulWidget {
   const AutenticacaoTela({super.key});
+
+  @override
+  State<AutenticacaoTela> createState() => _AutenticacaoTelaState();
+}
+
+class _AutenticacaoTelaState extends State<AutenticacaoTela> {
+  // Variavel que vai definir se o usuario quer fazer login ou se quer se cadastrar
+  bool queroEntrar = true;
 
   @override
   Widget build(BuildContext context) {
