@@ -13,6 +13,9 @@ class AutenticacaoTela extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
+                // Usando essas duas propriedades para o gradiente comecar em "cima e terminar em baixo" (por padrao, o LinearGradient comeca na esquerda da tela e termina na direita)
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
                 colors: [
                   MinhasCores.azulTopoGradiente,
                   MinhasCores.azulBaixoGradiente,
