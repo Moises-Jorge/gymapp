@@ -31,21 +31,27 @@ class _AutenticacaoTelaState extends State<AutenticacaoTela> {
               ),
             ),
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Image.asset("assets/gymLogo1.png", height: 250),
-              Text(
-                "GymApp",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 48,
-                  fontWeight: FontWeight.bold,
-                  color: Color(0xfff3f4e5),
-                ),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Form(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Image.asset("assets/gymLogo1.png", height: 250),
+                  Text(
+                    "GymApp",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 48,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xfff3f4e5),
+                    ),
+                  ),
+                  TextFormField(),
+                ],
               ),
-            ],
+            ),
           ),
         ],
       ),
