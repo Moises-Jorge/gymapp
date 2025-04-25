@@ -1,5 +1,6 @@
 // 1 - Importar o material.dart
 import 'package:flutter/material.dart';
+import 'package:gymapp/_comum/minhas_cores.dart';
 import 'package:gymapp/modelos/exercicio_modelo.dart';
 import 'package:gymapp/modelos/sentimento_modelo.dart';
 
@@ -46,7 +47,7 @@ class ExercicioTela extends StatelessWidget {
           ],
         ),
         centerTitle: true,
-        backgroundColor: Color(0xFF0A6D92),
+        backgroundColor: MinhasCores.azulEscuro,
         elevation: 0, // Propriedade que elimina a sombra
         toolbarHeight: 72,
         shape: RoundedRectangleBorder(
