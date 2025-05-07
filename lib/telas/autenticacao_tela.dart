@@ -34,22 +34,69 @@ class _AutenticacaoTelaState extends State<AutenticacaoTela> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Form(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Image.asset("assets/gymLogo1.png", height: 250),
-                  Text(
-                    "GymApp",
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 48,
-                      fontWeight: FontWeight.bold,
-                      color: Color(0xfff3f4e5),
-                    ),
+              child: Center(
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Image.asset("assets/gymLogo1.png", height: 250),
+                      Text(
+                        "GymApp",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 48,
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xfff3f4e5),
+                        ),
+                      ),
+                      SizedBox(height: 32),
+                      TextFormField(
+                        decoration: InputDecoration(label: Text("E-mail")),
+                      ),
+                      TextFormField(
+                        decoration: InputDecoration(label: Text("Senha")),
+                        obscureText: true,
+                      ),
+                      Visibility(
+                        visible: !queroEntrar,
+                        child: Column(
+                          children: [
+                            TextFormField(
+                              decoration: InputDecoration(
+                                label: Text("Confirme Senha"),
+                              ),
+                              obscureText: true,
+                            ),
+                            TextFormField(
+                              decoration: InputDecoration(
+                                label: Text("Nome de Usuário"),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(height: 16),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text((queroEntrar) ? "Entrar" : "Cadastrar"),
+                      ),
+                      Divider(),
+                      TextButton(
+                        onPressed: () {
+                          setState(() {
+                            queroEntrar = !queroEntrar;
+                          });
+                        },
+                        child: Text(
+                          (queroEntrar)
+                              ? "Ainda não tem uma conta? Cadastre-se!"
+                              : "Já tem uma conta? Entre!",
+                        ),
+                      ),
+                    ],
                   ),
-                  TextFormField(),
-                ],
+                ),
               ),
             ),
           ),
