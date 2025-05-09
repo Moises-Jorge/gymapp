@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gymapp/_comum/minhas_cores.dart';
+import 'package:gymapp/componentes/decoracao_campo_autenticacao.dart';
 
 class AutenticacaoTela extends StatefulWidget {
   const AutenticacaoTela({super.key});
@@ -52,25 +53,28 @@ class _AutenticacaoTelaState extends State<AutenticacaoTela> {
                       ),
                       SizedBox(height: 32),
                       TextFormField(
-                        decoration: InputDecoration(label: Text("E-mail")),
+                        decoration: getAuthenticationInputDecoration("E-mail"),
                       ),
+                      SizedBox(height: 8),
                       TextFormField(
-                        decoration: InputDecoration(label: Text("Senha")),
+                        decoration: getAuthenticationInputDecoration("Senha"),
                         obscureText: true,
                       ),
+                      SizedBox(height: 8),
                       Visibility(
                         visible: !queroEntrar,
                         child: Column(
                           children: [
                             TextFormField(
-                              decoration: InputDecoration(
-                                label: Text("Confirme Senha"),
+                              decoration: getAuthenticationInputDecoration(
+                                "Confirme a Senha",
                               ),
                               obscureText: true,
                             ),
+                            SizedBox(height: 8),
                             TextFormField(
-                              decoration: InputDecoration(
-                                label: Text("Nome de Usuário"),
+                              decoration: getAuthenticationInputDecoration(
+                                "Nome",
                               ),
                             ),
                           ],
